@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'welcome_screen.dart';
 import 'projects_screen.dart';
 import 'contact_screen.dart';
+import 'about_screen.dart';
 import '../widgets/customnavbar.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,6 +19,7 @@ class _HomePageState extends State<HomePage> {
     WelcomeScreen(),
     ProjectsScreen(),
     ContactScreen(),
+    AboutScreen(),
   ];
 
   void _onTabSelected(int index) {
